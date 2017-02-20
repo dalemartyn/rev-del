@@ -13,7 +13,7 @@ function revDel(options, cb) {
 
 	// Useful when testing
 	options.delFn = options.delFn || del;
-	options.dest = options.dest || '.';
+	options.dest = options.dest || '';
 
 	options.suppress = (options.suppress !== false);
 
